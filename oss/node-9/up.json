@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "hooks": {
+    "build": "make"
+  },
+  "proxy": {
+    "command": "./node_latest app.js"
+  },
+  "lambda": {
+    "memory": 1536
+  }
+}
